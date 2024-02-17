@@ -10,10 +10,12 @@ import JoinUs from './sections/JoinUs';
 import SectionFive from './sections/SectionFive';
 import SectionSix from './sections/SectionSix';
 import Footer from '@/components/pages/landing/sections/footer';
+import SocialMedia from './sections/SocialMedia';
 
 const LandingPage = () => {
     return (
-        <Grid container>
+        <Grid container position={'relative'}>
+            <SocialMedia />
             {/* Banner */}
             <Grid item xs={12}>
                 <Banner text="Lorem ipsum dolor sit amet" />
